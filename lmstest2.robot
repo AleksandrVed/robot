@@ -5,5 +5,5 @@ Resource    squash_resources.resource
 lmstest1
     Open Browser To LMS
     Login And Save State
-    Take Screenshot
+    Take Screen
     Close Browser Session
