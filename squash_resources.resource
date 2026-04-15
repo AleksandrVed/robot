@@ -19,7 +19,7 @@ Login And Save State
     New Page    https://testlms3kl.ru/login/
 
     Fill Text    id=username    admin
-    Fill Text    id=password    admin123
+    Fill Text    id=password    Admin123
     Click        button[type="submit"]
 
     Save Storage State    auth.json
