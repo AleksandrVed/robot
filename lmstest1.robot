@@ -8,6 +8,6 @@ Open LMS And Check Title
     New Page       https://lms3.demo.opentechnology.ru/
 
     ${title}=    Get Title
-    Should Contain    ${title}    LMS
+    Should Contain    ${title}    В начало | Lms.demo
 
     Close Browser
