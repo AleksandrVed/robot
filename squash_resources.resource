@@ -29,3 +29,6 @@ Login And Save State
     Wait For Elements State    css=body    visible    10s
 
     Save Storage State
+
+Take Screenshot
+    Take Screenshot    filename=browser/screenshot/screenshot.png
