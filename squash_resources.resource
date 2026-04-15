@@ -18,8 +18,14 @@ Check Page Title Contains
 Login And Save State
     New Page    https://testlms3kl.ru/login/
 
+    Wait For Elements State    id=username    visible    10s
+
     Fill Text    id=username    admin
     Fill Text    id=password    Admin123
+
+    Wait For Elements State    id=loginbtn    visible    10s
     Click        id=loginbtn
+
+    Wait For Load State    networkidle
 
     Save Storage State    auth.json
