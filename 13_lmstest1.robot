@@ -3,7 +3,6 @@ Documentation    lmstest1
 Metadata         ID                           13
 Metadata         Automation priority          null
 Metadata         Test case importance         Medium
-Resource         squash_resources.resource
 Test Setup       Test Setup
 Test Teardown    Test Teardown
 
