@@ -30,5 +30,5 @@ Login And Save State
 
     Save Storage State
 
-Take Screenshot
+Take Screen
     Take Screenshot    filename=browser/screenshot/screenshot.png
