@@ -28,4 +28,4 @@ Login And Save State
 
     Wait For Elements State    css=body    visible    10s
 
-    Save Storage State    auth.json
+    Save Storage State
