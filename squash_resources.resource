@@ -20,6 +20,6 @@ Login And Save State
 
     Fill Text    id=username    admin
     Fill Text    id=password    Admin123
-    Click        button[type="submit"]
+    Click        id=loginbtn
 
     Save Storage State    auth.json
