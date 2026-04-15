@@ -26,6 +26,6 @@ Login And Save State
     Wait For Elements State    id=loginbtn    visible    10s
     Click        id=loginbtn
 
-    Wait For Load State    networkidle
+    Wait For Load State    css=body    visible    10s
 
     Save Storage State    auth.json
